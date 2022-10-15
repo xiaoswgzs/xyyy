@@ -1,0 +1,142 @@
+<html>
+ <head> 
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <title>关于我们</title> 
+  <script src="js/jq.js"></script> 
+   <script src="js/wc-3.0.6.min.js"></script> 
+ </head> 
+ <style>
+ p
+ {
+   color:white;
+   }
+ 
+ 
+ .img1{
+    
+     background:url(IMG_20220813_190540.jpg);
+    background-size:100% 100%;
+    
+
+
+}
+
+</style>
+ 
+ <body id="v1" class="img1"> 
+  <p id="v2">我是一个个人开发者(来自云千机工作室)，刚学编程没多久，现在正在一点点成长，在程序中可能会遇到很多错误，您可以通过qq群向我反映该程序中遇到的问题，感谢您的支持。</p> 
+  <button id="h20" type="button" onclick="ipp()" class="btn">点击这里加入QQ群</button> 
+  <button id="h21" type="button" onclick="edc()" class="btn">返回</button> 
+  <script>
+  function ipp(){
+ wc.goQQGroup("756237504");
+  }
+  function edc(){
+  window.open("index.html")
+  }
+  
+  </script> 
+  
+ <style type="text/css">
+        body {
+            background: #f6f6f6;
+        }
+
+        .btn {
+
+            width: 150px;
+            height: 35px;
+            display: inline-block;
+            padding: 2px;
+            border-radius: 35px;
+            vertical-align: middle;
+            background: #e3164e;
+            background: linear-gradient(268deg,#e3164e,#7f1ba7,#841c39,#e993e7,#d27228);
+            background-size: 1000% 1000%;
+            -webkit-animation: gradient 10s ease infinite;
+            -moz-animation: gradient 10s ease infinite;
+            -o-animation: Agradient 10s ease infinite;
+            animation: gradient 10s ease infinite;
+        }
+
+            .btn input {
+                font: 300 14px/14px 'Source Sans Pro',sans-serif;
+                letter-spacing: 1px;
+                display: block;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-transform: uppercase;
+                background: #f6f6f6;
+                border: none;
+                outline: none;
+                border-radius: 35px;
+                color: #5a3db7;
+                cursor: pointer;
+                transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1)
+            }
+
+            .btn:hover input {
+                color: #fff;
+                background: transparent;
+            }
+
+        @-webkit-keyframes gradient {
+            0% {
+                background-position: 0% 24%;
+            }
+
+            50% {
+                background-position: 100% 77%;
+            }
+
+            100% {
+                background-position: 0% 24%;
+            }
+        }
+
+        @-moz-keyframes gradient {
+            0% {
+                background-position: 0% 24%;
+            }
+
+            50% {
+                background-position: 100% 77%;
+            }
+
+            100% {
+                background-position: 0% 24%;
+            }
+        }
+
+        @-o-keyframes AnimationName {
+            0% {
+                background-position: 0% 24%;
+            }
+
+            50% {
+                background-position: 100% 77%;
+            }
+
+            100% {
+                background-position: 0% 24%;
+            }
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 24%;
+            }
+
+            50% {
+                background-position: 100% 77%;
+            }
+
+            100% {
+                background-position: 0% 24%;
+            }
+        }
+  </style>
+
+</body>
+</html>
