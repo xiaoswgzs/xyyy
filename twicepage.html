@@ -1,175 +1,193 @@
+<!DOCTYPE html>
 <html>
- <head> 
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
-  <title>主页</title> 
-  <script src="js/jq.js"></script> 
-  <script> src="js/wc-3.0.6.min.js"></script> 
- </head> 
- <style>
-.img1{
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>酱紫啊</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+       }
+      body{
+        background: #fcfcfc;
+        
+      }
+      .header{
+        height:280px;
+        background: skyblue;
+        color:white;
+        text-align:center;
+      }
+      .header h1{
+        font-size:60px;
+        font-weight:400;
+        padding-top:70px;
+       }
+     .header p{
+        font-size:30px;
+        font-weight:300;
+      }
     
-     background:url(IMG_20220714_192737.jpg);
-    background-size:100% 100%;
     
-background-attachment: fixed;"
-
-}
-
- </style>
- 
- <body id="v1" class="img1"> 
-  <h1 id="v2">视频中心</h1> 
-   <div id="v8" class="btn"> 
-   <input id="v9" type="button" value="个人中心" onclick="d()"> 
-  </div> 
-   <div id="v8" class="btn"> 
-   <input id="v9" type="button" value="搜索" onclick="e()"> 
-  </div> 
-  <img src="1.jpg" alt="图片" id="v3" width="50%" height="50%" > 
-  <div id="v4" class="btn"> 
-   <input id="v5" type="button" value="后来所有..." onclick="a()"> 
-  </div> 
-  <img src="2.jpeg" alt="图片" id="v3" width="50%" height="50%"> 
-  <div id="v6" class="btn"> 
-   <input id="v7" type="button" value="历史是一..." onclick="b()"> 
-  </div> 
-  <img src="3.jpg" alt="图片" id="v3"width="50%" height="50%"> 
-  <div id="v8" class="btn"> 
-   <input id="v9" type="button" value="去更远的..." onclick="c()"> 
-  </div> 
-  <img src="staticoneplus.jpg" alt="图片" id="v3" width="50%" height="50%"> 
-  <div id="v8" class="btn"> 
-   <input id="v9" type="button" value="目力先贝..." onclick="f()"> 
-  </div>
-<img src="appIcon.png" alt="图片" id="v3" width="50%" height="50%"> 
-<div id="v8" class="btn"> 
-   <input id="v9" type="button" value="如何设置..." onclick="g()"> 
-  </div>
-
+      .box{
+        
+        overflow:hidden;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-top:20px;
+        border-radius:10px;
+        box-shadow:2px 2px 15px rgba(0,0,0,.5);
+       
+      }
+    
+      .box .top img{
+        width:100%;
+       }
+     
+     .bottom{
+       padding: 25px 30px;
+       
+      }
+     
+     .bottom h1{
+        font-size:22px;
+        font-weight:400;
+        padding: 10px 0;
+        color: #1f2d3d;
+      }
+    .bottom p{
+      font-size:14px;
+      color: #4c4948;
+      
+     }
+   
+   
+   .footer{
+     margin-top:30px;
+     height:70px;
+     background: skyblue;
+     color:white;
+     text-align:center;
+    }
   
-<script type="text/javascript">
- function a(){
-  window.open("1.html")
-}
-function b(){
-window.open("2.html")
-}
-function c(){
-window.open("3.html")
-}
-function d(){
-alert("正在开发中，暂未开放，请加入QQ群，随时关注最新版本");
-}
-function e(){
-alert("正在开发中，暂未开放，请加入QQ群，随时关注最新版本");
-}
-function f(){
-window.open("4.html")
-}
-function g(){
-window.open("5.html")
-}
-</script> 
-  
-<style id="v10" type="text/css">
-        body {
-            background: #f6f6f6;
+   .footer  p{
+      line-height:70px;
+      
+     }
+    </style>
+  </head>
+  <body>	
+
+     <div class="header">
+        <h1>今日热门</h1>
+        <p>Hot today</p>
+     </div>
+     
+     <div class="content">
+      
+       <div class="box" >
+     <a href="1.html">
+            <div class="top">
+              <img src="1.jpg"/>
+            </div>
+            <div class="bottom">
+              <h1>ethereal的视频</h1>
+              <p>后来所有的恶意都找到了原因 但我们无法回到过去</p>
+            </div>
+            </a>
+         </div>
+         
+         
+         <div class="box" >
+     <a href="2.html">
+            <div class="top">
+              <img src="2.jpg"/>
+            </div>
+            <div class="bottom">
+              <h1>浮梦的视频的视频</h1>
+              <p>历史是一堆灰烬，但灰烬深处有余温</p>
+            </div>
+            </a>
+         </div>
+         
+         
+         
+         <div class="box" >
+     <a href="3.html">
+            <div class="top">
+              <img src="3.jpg"/>
+            </div>
+            <div class="bottom">
+              <h1>浮梦的视频的视频</h1>
+              <p>去更远的地方，去见最亮的光</p>
+            </div>
+            </a>
+         </div>
+         
+         
+        
+         
+     
+     
+     </div>
+     
+     
+     <div class="footer">
+     
+      <p>建站时间:2022 夏虫一夏</p>
+     
+     </div>
+     
+			<!-- 音乐播放器跨站开始 -->
+		<link rel="stylesheet" href="player.css">
+       <div id="QPlayer">  
+          <div id="pContent">
+	         <div id="player">
+	         	<span class="cover"></span>
+	             	<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <div class="ssBtn">
+	   <div class="adf"></div>
+    </div>
+</div>
+    <ol id="playlist"></ol>
+</div>
+   <script src="jquery.min.js"></script>
+   <script src="jquery.marquee.min.js"></script>
+<script>
+var	playlist = [
+{title: "网易热歌榜",artist: "随机音乐",mp3: "https://api.uomg.com/api/rand.music?sort=热歌榜&format=mp3",cover: "http://ccwj.l-api.com/files/2022/10/25/IMG_20221024_095846.png",},];
+	    var isRotate = true;<!--图片旋转-->
+	    var autoplay = true;<!--自动播放-->
+</script>
+    <script src="player.js"></script>
+  <script>
+     function bgChange(){
+     	var lis= $('.lib');
+    	for(var i=0; i<lis.length; i+=2)
+    	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
         }
+        window.onload = bgChange;
+   </script>
+<!-- 音乐播放器跨站结束 -->
 
-        .btn {
-
-            width: 150px;
-            height: 35px;
-            display: inline-block;
-            padding: 2px;
-            border-radius: 35px;
-            vertical-align: middle;
-            background: #e3164e;
-            background: linear-gradient(268deg,#e3164e,#7f1ba7,#841c39,#e993e7,#d27228);
-            background-size: 1000% 1000%;
-            -webkit-animation: gradient 10s ease infinite;
-            -moz-animation: gradient 10s ease infinite;
-            -o-animation: Agradient 10s ease infinite;
-            animation: gradient 10s ease infinite;
-        }
-
-            .btn input {
-                font: 300 14px/14px 'Source Sans Pro',sans-serif;
-                letter-spacing: 1px;
-                display: block;
-                position: relative;
-                width: 100%;
-                height: 100%;
-                text-transform: uppercase;
-                background: #f6f6f6;
-                border: none;
-                outline: none;
-                border-radius: 35px;
-                color: #5a3db7;
-                cursor: pointer;
-                transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1)
-            }
-
-            .btn:hover input {
-                color: #fff;
-                background: transparent;
-            }
-
-        @-webkit-keyframes gradient {
-            0% {
-                background-position: 0% 24%;
-            }
-
-            50% {
-                background-position: 100% 77%;
-            }
-
-            100% {
-                background-position: 0% 24%;
-            }
-        }
-
-        @-moz-keyframes gradient {
-            0% {
-                background-position: 0% 24%;
-            }
-
-            50% {
-                background-position: 100% 77%;
-            }
-
-            100% {
-                background-position: 0% 24%;
-            }
-        }
-
-        @-o-keyframes AnimationName {
-            0% {
-                background-position: 0% 24%;
-            }
-
-            50% {
-                background-position: 100% 77%;
-            }
-
-            100% {
-                background-position: 0% 24%;
-            }
-        }
-
-        @keyframes gradient {
-            0% {
-                background-position: 0% 24%;
-            }
-
-            50% {
-                background-position: 100% 77%;
-            }
-
-            100% {
-                background-position: 0% 24%;
-            }
-        }
-  </style>   
- </body>
+  </body>
 </html>
